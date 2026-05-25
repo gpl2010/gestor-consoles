@@ -1,0 +1,29 @@
+POST http://localhost:3000/videogames
+Content-Type: application/json
+
+{
+    "title": "videogame teste",
+    "description": "Este é o primeiro videogame á venda de Node.js com MySQL",
+    "price": 990.00,
+    "games": 1
+}
+###
+
+GET http://localhost:3000/videogames
+
+###
+
+PUT http://localhost:3000/videogames/b9bfb29f-7981-474c-b989-a293c0c341a5
+Content-Type: application/json
+
+{
+    "title": "Alterei este videogame",
+    "description": "descrição atualizada",
+    "price": 1090.00,
+    "games": 2
+}
+
+###
+
+DELETE  http://localhost:3000/videogames/a94d0036-3ab2-4e15-ad00-5d3ff22783c4
+
