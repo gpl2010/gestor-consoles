@@ -55,9 +55,3 @@ server.listen({port:PORT}, (err, address) => {
     }
     console.log(`Servidor rodando em ${address}`);
 });
-
-
-
-
-
-

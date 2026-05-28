@@ -4,7 +4,7 @@ Content-Type: application/json
 {
     "title": "videogame teste",
     "description": "Este é o primeiro videogame á venda de Node.js com MySQL",
-    "price": 990.00,
+    "price": "990.00 R$",
     "games": 1
 }
 ###
@@ -19,11 +19,10 @@ Content-Type: application/json
 {
     "title": "Alterei este videogame",
     "description": "descrição atualizada",
-    "price": 1090.00,
+    "price": "1090.00 R$",
     "games": 2
 }
 
 ###
 
-DELETE  http://localhost:3000/videogames/a94d0036-3ab2-4e15-ad00-5d3ff22783c4
-
+DELETE  http://localhost:3000/videogames/b298cdc5-6036-43c1-b70d-0453edf4fd27
